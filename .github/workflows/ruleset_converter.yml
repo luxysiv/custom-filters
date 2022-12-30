@@ -1,0 +1,27 @@
+name: Update ruleset_converter
+on:
+  schedule:
+    - cron: '0 5 * * *'
+  workflow_dispatch:
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Download ruleset_converter
+        run: |
+          wget -O ruleset_converter https://github.com/bromite/bromite/releases/latest/download/ruleset_converter
+
+      - name: Generate date
+        run: echo "DATE=$(date +%F-%H-%M)" >> $GITHUB_ENV
+
+      - name: Commit ruleset_converter
+        uses: EndBug/add-and-commit@v9.1.1
+        with:
+          add: 'ruleset_converter'
+          default_author: github_actions
+          message: 'Update ruleset_converter: ${{ env.DATE }}'
+          push: true
+
