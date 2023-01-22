@@ -29,3 +29,23 @@ jobs:
       - name: take
         run: |
           wget -O abpvn-mod https://raw.githubusercontent.com/luxysiv/filters/main/abpvn-ext.txt
+
+      - name: Generate date 
+        run: echo "DATE=$(date +%F)" >> $GITHUB_ENV
+
+      - name: Release 
+        uses: softprops/action-gh-release@v1
+        with:
+          files: abpvn-mod
+          name: abpvn mod ${{ env.DATE }}
+          tag_name: ${{ env.DATE }}
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Delete older releases
+        uses: dev-drprasad/delete-older-releases@v0.2.1
+        with:
+          keep_latest: 1
+          delete_tags: true
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
