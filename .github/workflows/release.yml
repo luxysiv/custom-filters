@@ -26,5 +26,6 @@ jobs:
       - uses: actions/checkout@v3
 
       # Runs a single command using the runners shell
-      - name: |
-        wget -O abpvn-mod https://raw.githubusercontent.com/luxysiv/filters/main/abpvn-ext.txt
+      - name: take
+        run: |
+          wget -O abpvn-mod https://raw.githubusercontent.com/luxysiv/filters/main/abpvn-ext.txt
