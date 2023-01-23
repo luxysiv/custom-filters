@@ -28,7 +28,7 @@ jobs:
       # Runs a single command using the runners shell
       - name: take
         run: |
-          wget -O abpvn-mod https://raw.githubusercontent.com/luxysiv/filters/main/abpvn-ext.txt
+          wget https://raw.githubusercontent.com/luxysiv/filters/main/ext.txt https://raw.githubusercontent.com/abpvn/abpvn/master/filter/abpvn.txt
 
       - name: Generate date 
         run: echo "DATE=$(date +%F)" >> $GITHUB_ENV
