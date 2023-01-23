@@ -1,3 +1,1 @@
-# filters
-
-https://github.com/luxysiv/filters/releases/latest/download/abpvn-mod 
+Thêm vào ABPVN tùy chỉnh cá nhân
