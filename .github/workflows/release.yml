@@ -36,7 +36,7 @@ jobs:
       - name: Release 
         uses: softprops/action-gh-release@v1
         with:
-          files: abpvn-mod
+          files: abpvn-ext.txt 
           name: abpvn mod ${{ env.DATE }}
           tag_name: ${{ env.DATE }}
         env:
