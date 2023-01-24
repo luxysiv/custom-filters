@@ -1,1 +1,1 @@
-https://github.com/luxysiv/custom-ads-filters/releases/latest/download/filters.txt
+https://github.com/luxysiv/custom-ads-filters/raw/main/filters.txt
