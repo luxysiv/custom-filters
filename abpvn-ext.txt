@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 20230201184532
+! Version: 20230202143404
 ! Title: ABPVN List
-! Last modified: 01 Feb 2023 18:45:32 UTC+7
+! Last modified: 02 Feb 2023 14:34:04 UTC+7
 ! Expires: 1 days (update frequency)
 !
 ! ABPVN List filter
@@ -57,7 +57,6 @@
 ||24hmoney.vn/_nuxt/img/banner
 ||2banh.vn/images/banners/
 ||365.tructiepbongda.me^*.gif
-||5giay.vn/igo/
 ||7mad.7m.$domain=vn2.7msport.com|vn.7msport.com
 ||7mad1.7m.$domain=vn2.7msport.com|vn.7msport.com
 ||7mimg.7m.$domain=vn2.7msport.com|vn.7msport.com
@@ -167,8 +166,6 @@
 ||iamcdn.net/players/playera.dmins.js
 ||iamcdn.net/players/playhydraxs.min.js
 ||igg-games.com^*.gif
-||igo.5giay.vn/mobile/
-||igo.5giay.vn^*.gif
 ||image.24h.com.vn^*banner
 ||image.diaoconline.vn/banner-dool/$domain=diaoconline.vn
 ||image.thuvienvatly.com/home/images/banners/
@@ -481,7 +478,6 @@
 ||apinas.nct.vn^
 ||asg.phukienthoitranggiare.com^
 ||bam.nr-data.net
-||banner.5giay.vn^
 ||bidgear-syndication.com^
 ||blueseed.tv^$third-party
 ||cbey.io^
@@ -562,12 +558,6 @@
 2banh.vn###position_full_top_banner_pc
 2banh.vn##.window_popup
 2game.vn###newmenu + div>div[style]
-5giay.vn##.great-a-banner
-5giay.vn##.great-b-banner
-5giay.vn##.heart-banner
-7chill.tv##.banner-sticky-footer-ad
-7chill.tv##.container>center
-90phut6.live,90phut4.live##.btn-bet-top
 a3mnga.com##.single-video
 ahaphimz.com,vkoolzzz.net,vphimzzz.net##.catfish-ck
 anime3s.com###fbox-background
@@ -1144,9 +1134,9 @@ vebo3.org##.mmo
 vebo3.org##.mmo-inner
 vebo3.org##.vb-pr-box
 vebo3.org,xoilac12.org##.ft-box
+vebo3.org,xoilac12.org,banhkhuc6.com##.ibs-bet
+vebo3.org,xoilac12.org,banhkhuc6.com##div[class*="size-"]
 vebo3.org,xoilac12.org,banhkhuc6.com,90phut6.live,90phut4.live###m-bet
-vebo3.org,xoilac12.org,banhkhuc6.com,90phut6.live,90phut4.live##.ibs-bet
-vebo3.org,xoilac12.org,banhkhuc6.com,90phut6.live,90phut4.live##div[class*="size-"]
 vesotantai.com##.item-qc
 vieclam.tv###bnc1
 vietcetera.com##.Header_topBanner__1xD-2
@@ -1226,8 +1216,8 @@ xemphimviet.net,ghienphim2.net##.ad-floater
 xemphimviet.net,ghienphim2.net##.promotion-popup
 xemphimviet.net,ghienphim2.net##.video-ad-layer
 xemtivingon.org,keonhacai5.net##[id^="Balloon_"]
+xoilac12.org##.btn-betnow
 xoilac12.org##div.vebo-sp.container:nth-of-type(7)
-xoilac12.org,90phut6.live,90phut4.live##.btn-betnow
 xoilac31.tv###match-child-1
 xoilac31.tv###quangcaopc
 xoilac31.tv##.banner-link
@@ -1274,7 +1264,6 @@ zingnews.vn,toquoc.vn,baoxaydung.com.vn,tienphong.vn,antt.nguoiduatin.vn,kinhten
 @@/images/ad-300x250.jpg$~third-party,image,domain=lehait.net
 @@/wp-content/plugins/advanced-ads/admin/assets/js/advertisement.js$script,~third-party
 @@||4.bp.blogspot.com/-Faf4F4bEgfs/X6bgItBh8RI/AAAAAAAADr4/TI07qDfVYWk4cPdNAj8Mn5Q_yVzuG2cJgCK4BGAYYCw/s1600/gvnvh18.png$image,domain=gvnvh18.com
-@@||5giay.vn/igo/images
 @@||ads-api.twitter.com^$domain=azrom.net|cafenau.com|ycongnghe.com
 @@||ads-api.twitter.com^$xmlhttprequest,domain=khohieu.com
 @@||ads.pinterest.com$domain=cafenau.com
