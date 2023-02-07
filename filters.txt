@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202302070125
+! Version: 202302070151
 ! Title: EasyList
-! Last modified: 07 Feb 2023 01:25 UTC
+! Last modified: 07 Feb 2023 01:51 UTC
 ! Expires: 6 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -54236,9 +54236,9 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||xfreehd.com^$generichide
 ! *** easylist:easylist_adult/adult_allowlist_popup.txt ***
 [Adblock Plus 2.0]
-! Version: 20230206203656
+! Version: 20230207092249
 ! Title: ABPVN List
-! Last modified: 06 Feb 2023 20:36:56 UTC+7
+! Last modified: 07 Feb 2023 09:22:49 UTC+7
 ! Expires: 1 days (update frequency)
 !
 ! ABPVN List filter
@@ -54286,7 +54286,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 /stores/ads_data/*
 /tinhocdongthap.com\/wp-content\/plugins\/wp-[\w-]+\/[\w-]+\.js/$script
 /v/*/vast.js$script
-/vast.js$script,domain=api.anime3s.com|tvzinghd.com|ophim.pro
+/vast.js$script,domain=api.anime3s.com|tvzinghd.com|ophimhay.com
 /videojs.ads.$domain=~danet.vn
 /videojs.ima.js$domain=~jut.su|~earthcam.com
 ||123nhadatviet.com/Media/CK/banners/
@@ -54310,7 +54310,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 ||appvuive.fun/wp-content/themes/vuasanco/assets/scripts/scripts.js
 ||appvuive.fun^*.gif
 ||assets-vaegaa.wedodemos.com/ads/$media,domain=vaoroi13.online
-||assets.ophim.pro^*.gif$image
+||assets.ophimhay.com^*.gif$image
 ||azrom.net/wp-content/plugins/best-ads-block-detector/
 ||baohaugiang.com.vn/uploads/SlideHomeimg/
 ||baonga.com/*quang_cao$image
@@ -55127,9 +55127,9 @@ nhatrangclub.vn##.show-qc-home
 nhatrangclub.vn##.show_qc
 nld.com.vn##.top-advertisment
 olug.vn###popup_center
-ophim.pro###adsTopInPageBanner
-ophim.pro###popup
-ophim.pro##.adsContainer
+ophimhay.com###adsTopInPageBanner
+ophimhay.com###popup
+ophimhay.com##.adsContainer
 phapluatplus.vn##div[style="text-align:center;margin-top:0px;margin-bottom:0px;"]
 phim18tv.net,vietphims.tv,kenhphim.site,hh3dhay.com,phimtn.com,tvhai.co##.float-ck-center-lt
 phim18zz.com,mphimmoi22.com##.pcCatfish
