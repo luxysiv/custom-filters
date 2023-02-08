@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202302080232
+! Version: 202302080319
 ! Title: EasyList
-! Last modified: 08 Feb 2023 02:32 UTC
+! Last modified: 08 Feb 2023 03:19 UTC
 ! Expires: 6 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -15147,6 +15147,7 @@ _800x80_
 ##.article-small-ads
 ##.article-sponsor
 ##.article-sponsorship-header
+##.article-taboola
 ##.article-top-ad
 ##.articleADbox
 ##.articleAd
@@ -41817,6 +41818,7 @@ tf2r.com#@#.adverts
 ||cluep.com^$third-party
 ||cogocast.net^$third-party
 ||coguan.com^$third-party
+||coinads.io^$third-party
 ||coinmedia.co^$third-party
 ||cointraffic.io^$third-party
 ||coinzilla.io^$third-party
@@ -48740,6 +48742,7 @@ imgbox.com###full-page-redirect
 reviewgeek.com###future_Y_R_0_1
 clocktab.com###fv_left-side
 chromecastappstips.com###fwdevpDiv0
+fxstreet.com###fxs-sposorBroker-topBanner
 colourlovers.com###ga-above-footer
 colourlovers.com###ga-below-header
 9bis.net###gad
@@ -48811,6 +48814,8 @@ planetradio.co.uk###inline-03
 datamation.com,esecurityplanet.com,eweek.com,serverwatch.com,webopedia.com###inline-top
 krnb.com###inner-footer
 timesofmalta.com###inscroll-banner
+techspot.com###insert-ad-uno
+techspot.com###insert-top-ts-ad
 imagebam.com###inter > [src]
 booklife.com,yabeat.org###interstitial
 cnsnews.com,newsbusters.org###intranet_long
@@ -50122,6 +50127,7 @@ endtimeheadlines.org##.endti-widget
 kupondo.com##.entry-content > .row
 whatsmyreferer.com##.entry-content > ul
 huffingtonpost.co.uk,huffpost.com##.entry__right-rail-width-placeholder
+euronews.com##.enw-MPU
 marcadores247.com##.es_top_banner
 shtfplan.com,yournews.com##.et_pb_code_inner
 metric-conversions.org##.exists
@@ -50437,6 +50443,7 @@ ticketmaster.com##.jTNWic
 notateslaapp.com##.jeffdlwlxpqi
 psypost.org##.jeg_midbar
 romania-insider.com##.job-item
+techspot.com##.jobbioapp
 marketingweek.com##.jobs-lists
 johncodeos.com##.johnc-widget
 marinelink.com,maritimejobs.com,maritimepropulsion.com,yachtingjournal.com##.jq-banner
@@ -50494,7 +50501,7 @@ zdnet.com##.leader-top
 blaauwberg.net##.leaderBoardContainer
 techadvisor.com##.leaderBoardHolder
 coveteur.com##.leaderboar_promo
-agcanada.com,allmusic.com,allthatsinteresting.com,autoaction.com.au,autos.ca,ballstatedaily.com,boardgamegeek.com,broadcastnow.co.uk,cantbeunseen.com,chairmanlol.com,comingsoon.net,crn.com.au,diyfail.com,dogtime.com,edmunds.com,europeanpharmaceuticalreview.com,explainthisimage.com,foodista.com,freshbusinessthinking.com,funnyexam.com,funnytipjars.com,gamesindustry.biz,hardware.info,iamdisappoint.com,imedicalapps.com,itnews.com.au,japanisweird.com,jta.org,legion.org,lifezette.com,milesplit.com,monocle.com,morefailat11.com,moviemistakes.com,nbl.com.au,objectiface.com,passedoutphotos.com,playstationlifestyle.net,precisionvaccinations.com,rollcall.com,roulettereactions.com,searchenginesuggestions.com,shinyshiny.tv,shitbrix.com,sparesomelol.com,spoiledphotos.com,spokesman.com,sportsnet.ca,sportsvite.com,stopdroplol.com,straitstimes.com,suffolknews.co.uk,supersport.com,tattoofailure.com,thedriven.io,thefashionspot.com,thestar.com.my,titantv.com,tutorialrepublic.com,where.ca,yoimaletyoufinish.com##.leaderboard
+agcanada.com,allmusic.com,allthatsinteresting.com,autoaction.com.au,autos.ca,ballstatedaily.com,boardgamegeek.com,broadcastnow.co.uk,cantbeunseen.com,chairmanlol.com,comingsoon.net,crn.com.au,diyfail.com,dogtime.com,edmunds.com,europeanpharmaceuticalreview.com,explainthisimage.com,foodista.com,freshbusinessthinking.com,funnyexam.com,funnytipjars.com,gamesindustry.biz,hardware.info,iamdisappoint.com,imedicalapps.com,itnews.com.au,japanisweird.com,jta.org,legion.org,lifezette.com,milesplit.com,monocle.com,morefailat11.com,moviemistakes.com,nbl.com.au,nfcw.com,objectiface.com,passedoutphotos.com,playstationlifestyle.net,precisionvaccinations.com,rollcall.com,roulettereactions.com,searchenginesuggestions.com,shinyshiny.tv,shitbrix.com,sparesomelol.com,spoiledphotos.com,spokesman.com,sportsnet.ca,sportsvite.com,stopdroplol.com,straitstimes.com,suffolknews.co.uk,supersport.com,tattoofailure.com,thedriven.io,thefashionspot.com,thestar.com.my,titantv.com,tutorialrepublic.com,where.ca,yoimaletyoufinish.com##.leaderboard
 edarabia.com##.leaderboard-728
 abcnews.go.com,edarabia.com##.leaderboard-970
 roblox.com##.leaderboard-abp
@@ -51125,6 +51132,7 @@ tutorialrepublic.com##.sidebar
 dkoding.in##.sidebar .widget_custom_html
 computing.co.uk##.sidebar-block
 radiotoday.co.uk##.sidebar-column-secondary > .sidebar
+nfcw.com##.sidebar-display
 thehustle.co##.sidebar-feed-trends
 lawandcrime.com,mediaite.com##.sidebar-hook
 freshbusinessthinking.com##.sidebar-mpu
@@ -51583,7 +51591,7 @@ ign.com,mashable.com##.zad
 windows101tricks.com##.zanui-container
 antimusic.com##.zerg
 thehackernews.com##.zoho-box
-miamiherald.com##.zone
+charlotteobserver.com,miamiherald.com##.zone
 bellinghamherald.com##.zone-el
 bbc.co.uk##[amp-access="toggles.ads.enabled"]
 urbandictionary.com##[aria-label*="Advertise"]
