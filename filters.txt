@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202302090740
+! Version: 202302090901
 ! Title: EasyList
-! Last modified: 09 Feb 2023 07:40 UTC
+! Last modified: 09 Feb 2023 09:01 UTC
 ! Expires: 6 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -49579,6 +49579,7 @@ classicfm.com##.apple_music
 icon-icons.com##.apu
 adn.com,businessoffashion.com,irishtimes.com##.arcad-feature
 1news.co.nz,actionnewsjax.com,boston25news.com,easy93.com,fox23.com,kiro7.com,wftv.com,whio.com,wpxi.com,wsbradio.com,wsbtv.com,wsoctv.com##.arcad_feature
+check-host.net##.ard_z
 whatculture.com##.area-x__large
 arstechnica.com##.ars-component-buy-box
 ggrecon.com##.artSideBgBox
@@ -49607,7 +49608,6 @@ releasestv.com##.ast-above-header-wrap
 animalcrossingworld.com##.at-sidebar-1
 fedex.com##.atTile1
 tvtropes.org##.atf_banner
-check-host.net##.athold10wr
 audiobacon.net##.audio-widget.et_pb_widget
 mbl.is##.augl
 imasdk.googleapis.com##.autoalign.nonLinearContainer
@@ -50245,6 +50245,8 @@ whatismybrowser.com##.fun-info-footer
 whatismybrowser.com##.fun-inner
 artscanvas.org##.funders
 ferrarichat.com##.funzone
+savemyexams.co.uk##.fuse-desktop-h-250
+savemyexams.co.uk##.fuse-h-90
 fxstreet.com##.fxs_leaderboard
 aframnews.com,afro.com,aurn.com,borneobulletin.com.bn,businessday.ng,businessofapps.com,chicagodefender.com,chimpreports.com,coinweek.com,dailynews.co.zw,dailysport.co.uk,dallasvoice.com,gatewaynews.co.za,gayexpress.co.nz,gematsu.com,islandecho.co.uk,jacksonvillefreepress.com,mediaplaynews.com,moviemaker.com,newpittsburghcourier.com,nondoc.com,richmondshiretoday.co.uk,sammobile.com,savannahtribune.com,talkradioeurope.com,thegolfnewsnet.com,waamradio.com,womensagenda.com.au##.g
 coinweek.com##.g-389
@@ -51830,6 +51832,7 @@ ttgmedia.com##[style^="position: fixed;"]
 meaww.com##[style^="text-align: center;"]
 zenger.news##[style^="text-align:center;min-height:"]
 reuters##[testid="ResponsiveAdSlot"]
+check-host.net##[title="DDOS-Guard"]
 balls.ie##[type="doubleclick"]
 fansshare.com##[width="300"]
 drwealth.com##[width="640"]
@@ -54314,9 +54317,9 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||xfreehd.com^$generichide
 ! *** easylist:easylist_adult/adult_allowlist_popup.txt ***
 [Adblock Plus 2.0]
-! Version: 20230209105722
+! Version: 20230209154212
 ! Title: ABPVN List
-! Last modified: 09 Feb 2023 10:57:22 UTC+7
+! Last modified: 09 Feb 2023 15:42:12 UTC+7
 ! Expires: 1 days (update frequency)
 !
 ! ABPVN List filter
@@ -54396,7 +54399,6 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 ||baonga.com/image*.gif
 ||batdongsan.com.vn/*/Banner/
 ||batdongsan24h.com.vn/images/banners/
-||bimbim.vip^*.gif$image
 ||biphim1.com/styles/vtlai/ads_z.js
 ||blog.abit.vn/wp-content/uploads/2020/05/abit_$image
 ||blogtruyen.vn/cdn-cgi/mirage/10d4556cf396f7ad9c820d08622ed531c869069e669907bfb02c1980c67564cd/1280/https://img.blogtruyen.vn/sharex/i9-400x300b.jpg$image
@@ -54889,18 +54891,12 @@ banhkhuc6.com##.btn-user.r-btn
 banhkhuc6.com,vebo3.org##.mct_-bet
 bantincongnghe.net##[href*="cellphones.com.vn"]
 baodansinh.vn##.box-ads-bar
-baodauthau.vn##.advertise
-baodauthau.vn##.main-ad-wrapper
-baogiaothong.vn###div_inpage_banner
-baogiaothong.vn###div_inpage_banner_open
 baohaugiang.com.vn##.top-header
 baomoi.com###BaoMoi_HalfPage
 baomoi.com#?##__next>div[class^="bm_"]:-abp-has(#BaoMoi_Masthead)
 baonga.com##.monkey-content-duoicanbiet
 baonga.com##.monkey-section-tinnoibat
 baonga.com##div.monkey-qc
-baophapluat.vn###article-sidebar
-bimbim.vip##.widget_custom_html.widget.widget_text
 biphim1.com,biphims.co,biphims.cc,phimmois.cc##.banner-sticky-footer-wrapper
 blog.abit.vn##.button-dangkyngay
 blogkiienthuc.net##.textwidget
@@ -55087,7 +55083,7 @@ kenh14.vn##.khw-adk14-wrapper
 kenh14.vn,baodauthau.vn,mmo4me.com##div[class*="ads"]
 keonhacai5.net##.container>.row>center
 ketqua247.blog###adsModal
-ketqua247.blog,phuongtrinhhoahoc.com,bimbim.vip##.ads-container
+ketqua247.blog,phuongtrinhhoahoc.com##.ads-container
 ketqua7.net##.baloon
 ketqua7.net##.col-sm-10.kqcenter
 ketqua7.net##.kqbackground.vien ~ a[target="_blank"]
@@ -55465,7 +55461,7 @@ vkoolzzz.net,subnhanhz.tv,subnhanh.cc,tructiepdabong10.live###overlay
 vn.7msport.com###Top_b2
 vn.7msport.com###bottomFixedDiv
 vn.7msport.com##tr[id^="word_"]
-vndoc.com,download.com.vn,quantrimang.com,download.vn,gamevui.vn,khoahoc.tv##.adbox
+vndoc.com,download.com.vn,quantrimang.com,download.vn,gamevui.vn,khoahoc.tv,meta.vn##.adbox
 vnews.gov.vn##.banner-bottom-menu
 vnews.gov.vn##.popup-bg
 vnews.gov.vn##.showpop
@@ -55553,7 +55549,7 @@ zingnews.vn###Zingnews_SiteHeader
 zingnews.vn###site-header
 zingnews.vn##.znews-banner
 zingnews.vn,minhngoc.net.vn,vn-z.vn,kinhtedothi.vn##[id^="adv"]
-zingnews.vn,toquoc.vn,baoxaydung.com.vn,tienphong.vn,antt.nguoiduatin.vn,kinhtenongthon.vn,taichinhdoanhnghiep.net.vn,thichxemphim1.net,bimbim.vip,mannhantv.live,xemphimviet.net,ghienphim2.net##.banner
+zingnews.vn,toquoc.vn,baoxaydung.com.vn,tienphong.vn,antt.nguoiduatin.vn,kinhtenongthon.vn,taichinhdoanhnghiep.net.vn,thichxemphim1.net,mannhantv.live,xemphimviet.net,ghienphim2.net##.banner
 ~livescore.com,~msn.com,~dm.de,~medium.com##.qc
 !---------------ABPVN White List--------------------
 @@/favicon.ico
