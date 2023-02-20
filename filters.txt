@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202302201101
+! Version: 202302201145
 ! Title: EasyList
-! Last modified: 20 Feb 2023 11:01 UTC
+! Last modified: 20 Feb 2023 11:45 UTC
 ! Expires: 6 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -14705,6 +14705,7 @@ _800x80_
 ##.advertisement-footer
 ##.advertisement-google
 ##.advertisement-header
+##.advertisement-holder
 ##.advertisement-image
 ##.advertisement-information-link
 ##.advertisement-label
@@ -52214,6 +52215,7 @@ pravda.ru##.yaRtbBlock
 yardbarker.com##.yb-card-ad
 yardbarker.com##.yb-card-out
 shockwave.com##.ympb_target_banner
+saltwire.com##.youtube_article_ad
 yellowpages.co.za##.yp-object-ad-modal
 deviantart.com##.ytXUX
 buzzly.art##.z-10.w-max
@@ -52269,6 +52271,7 @@ target.com##[data-test="featuredProducts"]
 nytimes.com,nytimes3xbfgragh.onion##[data-testid="StandardAd"]
 imdb.com##[data-testid="media-sheet__attr-banner"]
 washingtonpost.com##[data-testid="placeholder-box"]
+abcnews.go.com##[data-testid="prism-static-embed"]
 goal.com##[data-type="AdComponent"]
 search.brave.com##[data-type="ad"]
 gadgetsnow.com##[data-type="mtf"]
