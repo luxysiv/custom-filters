@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202302211932
+! Version: 202302212057
 ! Title: EasyList
-! Last modified: 21 Feb 2023 19:32 UTC
+! Last modified: 21 Feb 2023 20:57 UTC
 ! Expires: 6 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -50894,6 +50894,7 @@ popsci.com,thedrive.com##.empire-below_content__desktop__articles-prefill-contai
 popsci.com,thedrive.com##.empire-content__desktop__articles-prefill-container
 popsci.com,thedrive.com##.empire-header__desktop__article-prefill-container
 endtimeheadlines.org##.endti-widget
+floridianpress.com##.enhanced-text-widget
 kupondo.com##.entry-content > .row
 whatsmyreferer.com##.entry-content > ul
 huffingtonpost.co.uk,huffpost.com##.entry__right-rail-width-placeholder
@@ -52760,7 +52761,7 @@ himovies.to,home-barista.com,rarpc.co,shtfplan.com,warecracks.com,washingtontime
 onetransistor.eu##a[onclick][target="_blank"]
 earlygame.com,i711.com##a[rel*="sponsored"]
 filma24.ch,mcrypto.club,ssrmovies.repair,themoviesflix.io##a[rel="noopener"]
-gab.com##a[rel="noopener"][target="_blank"]
+gab.com##a[rel="noopener"][target="_blank"][href^="https://grow.gab.com/go/"]
 unsplash.com##a[rel^="sponsored"][target="_blank"]
 opensubtitles.org##a[target="_blank"][href^="https://www.amazon.com/gp/search"]
 searchenginereports.net##a[title="Ad"]
