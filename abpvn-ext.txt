@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 20230221160304
+! Version: 20230221171113
 ! Title: ABPVN List
-! Last modified: 21 Feb 2023 16:03:04 UTC+7
+! Last modified: 21 Feb 2023 17:11:13 UTC+7
 ! Expires: 1 days (update frequency)
 !
 ! ABPVN List filter
@@ -74,6 +74,7 @@
 ||appvuive.fun^*.gif
 ||assets-vaegaa.wedodemos.com/ads/$media,domain=vaoroi13.online
 ||azrom.net/wp-content/plugins/best-ads-block-detector/
+||babydeal.com.vn/image/catalog/banners$image
 ||baohaugiang.com.vn/uploads/SlideHomeimg/
 ||baonga.com/*quang_cao$image
 ||baonga.com/FileUpload/Images/*banner
@@ -215,7 +216,6 @@
 ||lzd-img-global.slatic.net^$image,domain=metruyencv.com
 ||maclife.io/*Banner
 ||maclife.io^*.gif
-||manbetvn.com^$image,domain=cakhia-tv.live
 ||mangaqq.com/qc-new/
 ||maytinh360.vn/images/$third-party
 ||media.baodansinh.vn/files/qc/$image
@@ -575,6 +575,7 @@ azviet.biz###widget-15
 azviet.biz##.WidgetFramework_WidgetRenderer_Html
 banhkhuc6.com##.btn-user.r-btn
 banhkhuc6.com,vebo3.org##.mct_-bet
+banthanghd.com##.list-dat-cuoc
 bantincongnghe.net##[href*="cellphones.com.vn"]
 baodansinh.vn##.box-ads-bar
 baohaugiang.com.vn##.top-header
@@ -596,22 +597,17 @@ bongda.com.vn##.top_page
 bongda21h.com###backgroundPopupp
 bongda21h.com###popupContact
 bongda21h.com##.btn-single-cuoc
-bongda365.bet,ketqua247.blog,keoso.club,soikeoz.net,bongdatructuyen16.com##.banners
-bongdahomnay.org##.btn-green
-bongdahomnay.org##.pr-box
+bongda365.bet,keoso.club,soikeoz.net,bongdatructuyen16.com##.banners
+bongdahomnay.org,banthanghd.com###fixed-advert-center-panel
 bongdaso12.com,bongdaso12.net,bongdaso66.net###right_float
 bongdaso12.com,bongdaso12.net,bongdaso66.net##.art_header_text
 bongdaso12.com,bongdaso12.net,bongdaso66.net##[id$="float_banner"]
 bongdaso12.com,bongdaso12.net,bongdaso66.net,xemtivisohd.net,blog.abit.vn##[class*="_banner"]
-bongdatructuyen16.com##.btn_bet_live
 bongdatructuyen16.com##.menu-mobile.hot-menu
 btcvn.org##.PanelScroller.Notices
 cafebiz.vn##.bgadmtoptotal
 cafef.vn,ttvn.toquoc.vn##.bannertop
 cai-win.com##[href^="https://billing.stablehost.com/aff.php"]
-cakhia-tv.live##.castfish
-cakhia-tv.live##.floating
-cakhia-tv.live,xemlivenhanh.com##.datcuoc.button
 cakhia18.com,cakhia26.tv,cakhia22.live##.button-bottom-center-append-custom
 cakhia18.com,cakhia26.tv,cakhia22.live##.container-banner
 cakhia18.com,cakhia26.tv,cakhia22.live##.logo-top-right-append-custom
@@ -767,7 +763,6 @@ ireviewsach.com##[href^="https://rutgon.me/"]
 kenh14.vn##.khw-adk14-wrapper
 kenh14.vn,baodauthau.vn,mmo4me.com##div[class*="ads"]
 keonhacai5.net##.container>.row>center
-ketqua247.blog###adsModal
 ketqua247.blog,phuongtrinhhoahoc.com##.ads-container
 ketqua7.net##.baloon
 ketqua7.net##.col-sm-10.kqcenter
@@ -1188,6 +1183,7 @@ xehay.vn###banner1ab
 xehay.vn###banner2ab
 xemhay.org##div.container:nth-of-type(5)
 xemlivenhanh.com##.banner_pc
+xemlivenhanh.com##.datcuoc.button
 xemphim1080.com,phimmoi2.com,mephimnhat2.com,phimnhanh2.com##.player-vast-blocker
 xemphim1080.com,phimmoi2.com,mephimnhat2.com,phimnhanh2.com,hhtq.pro###sponsor-balloon
 xemphim1080.com,topphimthai.com,phimmy24.com,phimnhat24.com,animevip.tv,mehoathinh.com##.ff-banner
