@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 20230222150135
+! Version: 20230222155607
 ! Title: ABPVN List
-! Last modified: 22 Feb 2023 15:01:35 UTC+7
+! Last modified: 22 Feb 2023 15:56:07 UTC+7
 ! Expires: 1 days (update frequency)
 !
 ! ABPVN List filter
@@ -293,7 +293,6 @@
 ||qtcshop.com/images/$third-party
 ||quaivatdienanh.com/*banner$image
 ||quangcaosanpham.com/images/$third-party
-||raovat3s.com/clientscript/ad_banner.js
 ||raovat3s.com/clientscript/yui/yuiloader-dom-event/yuiloader-dom-event.js
 ||raovatbienhoa.vn/images/
 ||raovatdidong.vn/images/$third-party
@@ -414,7 +413,6 @@
 ||vietjack.com/git/images/2k2_new_2.jpg
 ||vietjack.com/git/images/banner_
 ||vietnamplus.vn/*raovat.aspx
-||vietphims.tv/wp-content/uploads/2022/04/710x100.png$image
 ||vietyo.com/yomedia/
 ||vinagamemobile.com/wp-content/uploads/2021/06/quang-cao-game-moi-banner*.jpg
 ||vinagamemobile.com/wp-content/uploads^*.gif
@@ -429,7 +427,6 @@
 ||vuighe.net/banner$image
 ||wikisach.net/static/js/adx/$script
 ||wikisach.org/static/js/adx/$script
-||wpcdn.xyz/wp-content/uploads/2021/09/PopupBanner_600x400.jpg
 ||wpcdn.xyz^*.gif
 ||xahoingaynay.com.vn/upload/$image
 ||xehay.vn/public/html5/ads/
@@ -1250,12 +1247,10 @@ zingnews.vn,toquoc.vn,baoxaydung.com.vn,tienphong.vn,antt.nguoiduatin.vn,kinhten
 @@||apicdn.sctvonline.vn/tenants/sctv/$xmlhttprequest,~third-party
 @@||assets.vlitag.com/plugins/$script,domain=game24h.vn
 @@||assets.vlitag.com/prebid/default/$script,domain=game24h.vn
-@@||cdn.amp.dev/v0/amp-ad-0.1.js$domain=sum.vn
 @@||cdn.jsdelivr.net/gh/toidicode/favicons@1.0.1/js/prebid-ads.js
 @@||cdnjs.cloudflare.com/ajax/libs/videojs-contrib-ads/6.0.0/videojs-contrib-ads.js$script,domain=sctvonline.vn
 @@||chiasenhac.vn/test_ads.html$~third-party
 @@||forum.gocmod.com/js/$~third-party
-@@||giavang.net/images/ads.jpg
 @@||googleads.g.doubleclick.net/pagead/$domain=cungthi.online|romgoc.net
 @@||googletagservices.com/tag/js/gpt.js$domain=game24h.vn
 @@||i.imgur.com/MsrDtuT.png$domain=autoitvn.com
@@ -1263,34 +1258,26 @@ zingnews.vn,toquoc.vn,baoxaydung.com.vn,tienphong.vn,antt.nguoiduatin.vn,kinhten
 @@||itudong.com/wp-content/uploads/2021/08/background1_itudong.jpg
 @@||js.aiservice.vn$script,domain=genk.vn
 @@||jsc.adskeeper.co.uk^$script,domain=ios.codevn.net
-@@||khosinhvien.com/uploads/logo/logo_5fe4389552c2a.png
 @@||link1s.com/wp-banners.js
 @@||luyenthithukhoa.vn/vietmxDetect/$~third-party
 @@||media.nghean24h.vn/thumb$image
 @@||media1.admicro.vn/cms/$script,domain=tuoitre.vn
-@@||newscon.net/static/js/prebid-ads.js
 @@||pagead2.googlesyndication.com$script,xmlhttprequest,image,domain=thuthuatmeovat.net|kites.vn|phuongtrinhhoahoc.com|filehk.com|ycongnghe.com|vutrung.gnomio.com|letrongdai.vn|romgoc.net|traderviet.com|sum.vn|truyenaudiocv.org|123link.f4vnn.com|khuchotot.com|laptrinhx.com|1shortlink.com|shortenlink.vip|sachiepvien.net|iot.chinhphucvn.com|thelanb.com|nguyentinhblog.com|cungthi.online|sharescript.net|lehait.net|nhacsong.pro|kientruc360.info|giavang.net|qthang.net|vnjpclub.com|753x.blogspot.com|ngohoanganhtuan.com|ngohoanganhtuan.net|toeicexamstore.xyz|vungoctuan.vn|ichi.pro|gocmod.com|tromcap.com|dichthuatphuongdong.com|dafontvn.com|gvnvh18.com|link1s.com|sesenblog.com|filess.us|baominh.tech|xaydungplus.com|nguonhd.net|anhdep24.com|tusachxinh.info|sub1s.com|nguontvhay.com|windowslite.net|tiengnhatdongian.com|quangcaoyenbai.com|designervn.net|ios.codevn.net|traffic1s.com|audiotruyenfull.com|minhpc.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=cafenau.com
 @@||pagead2.googlesyndication.com^$domain=azrom.net|khohieu.com|anonyviet.com
 @@||player.phimno1.cc$subdocument
 @@||player.sohatv.vn/resource/$script,domain=cafef.vn|gamek.vn|genk.vn|kenh14.vn
 @@||pubads.g.doubleclick.net$xmlhttprequest,domain=vtvgiaitri.vn
-@@||qthang.net/js/ads-prebid.js
 @@||quangcao.tuoitre.vn/customer/banner/2020/V/Vietlot/mb$subdocument
 @@||raovatbienhoa.vn/images/icon
 @@||services.vlitag.com/adv1/$script,domain=game24h.vn
 @@||services.vlitag.com/vpaid/$xmlhttprequest,domain=kites.vn
-@@||sharescript.net/wp-content/uploads/2019/08/logo_white-copy-200.png
 @@||ssl.p.jwpcdn.com/player/plugins/vast/$script,domain=xemphim365.org|phimchat1.net|phimbo88.org
 @@||stackjava.com/wp-content/uploads/*logo-250x250.png
 @@||static.amcdn.vn/tka/cdn.js$script,domain=genk.vn
 @@||tag.vlitag.com/v1/$script,domain=game24h.vn
 @@||thanhtra.com.vn/data/images/0/2022/02/18/host/logott.jpg
 @@||tpc.googlesyndication.com/sodar/sodar2.js$domain=cungthi.online
-@@||truyenaudiocv.org/ads-prebid.js
-@@||truyentranhaudio.com/app/manga/themes/light/assets/js/prebid-ads.js$script,~third-party
-@@||truyentranhaudio.online/app/manga/themes/light/assets/js/prebid-ads.js$script,~third-party
-@@||tusachxinh.info/wp-content/themes/tsxx/includes/ads-prebid.js$script
 @@||viettelstore.vn/images/Advertises/$image
 @@||voz.vn/u/adx.$xmlhttprequest
 @@||vr.com.vn/uploads/adv/banner/$image
