@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202302251054
+! Version: 202302251158
 ! Title: EasyList
-! Last modified: 25 Feb 2023 10:54 UTC
+! Last modified: 25 Feb 2023 11:58 UTC
 ! Expires: 6 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -12938,6 +12938,7 @@ _800x80_
 ##.adbckgrnd
 ##.adbelowfirstpost
 ##.adbetween
+##.adbetweenarticles
 ##.adbkgnd
 ##.adblade
 ##.adblade-container
@@ -48953,6 +48954,8 @@ androidrepublic.org,anonymousemail.me,apkmirror.com,demos.krajee.com,kadinlarkul
 ||bustle.com^*/prebid-
 ||jwplatform.com/libraries/tdeymorh.js
 ||wsj.net/pb/pb.js
+! firework
+||fireworkapi1.com^$domain=boldsky.com
 ! In-page video advertising.
 ||anyclip.com^$script,third-party
 ||api.fw.tv^
@@ -50428,6 +50431,7 @@ streams.tv###sunGarden
 dashnet.org###support
 vk.com,vk.ru###system_msg
 gumtree.com###tBanner
+oneindia.com###taboola-mid-article-thumbnails
 drivespark.com,goodreturns.in###taboola-mid-category-thumbnails
 comicbookrealm.com###tad
 google.com###tadsc
@@ -50725,6 +50729,7 @@ allscrabblewords.com,famously-dead.com,famouslyarrested.com,famouslyscandalous.c
 allscrabblewords.com,famously-dead.com,famouslyarrested.com,famouslyscandalous.com,mpog100.com##.ad2
 allscrabblewords.com,mpog100.com##.ad3
 chron.com,greenwichtime.com,sfchronicle.com,thetelegraph.com,timesunion.com##.adBanner
+bigislandnow.com##.adBreak
 m.economictimes.com,trailspace.com##.adContainer
 anews.com.tr##.adControl
 bramptonguardian.com##.adSlot___3IQ8M
@@ -50733,6 +50738,7 @@ healthnfitness.net##.adTrack
 food.com##.ad__ad
 asianjournal.com##.ad_before_title
 auto-data.net##.ad_incar
+bigislandnow.com##.ad_mobileleaderboard
 kitco.com##.ad_space_730
 queerty.com##.adb-box-large
 queerty.com##.adb-top-lb
@@ -51747,6 +51753,7 @@ hindustantimes.com##.ht_taboola
 barstoolsports.com##.htl-ad__container
 nameberry.com##.htlad-InContent_Flex
 nameberry.com##.htlad-Leaderboard_Flex
+wtop.com##.hubb-at-rad-header
 extremetech.com##.hybrid-bar + div
 myabandonware.com##.i528
 animenewsnetwork.com##.iab
@@ -52132,6 +52139,7 @@ comicbook.com##.oas
 jpost.com##.ob-widget
 flashscore.co.za##.oddsPlacement
 softexia.com##.offer
+oneindia.com##.oi-add-block
 oneindia.com##.oi-spons-ad
 boldsky.com,drivespark.com,filmibeat.com,gizbot.com,goodreturns.in,oneindia.com##.oiad-txt
 hamodia.com##.oiomainlisting
@@ -52210,6 +52218,7 @@ washingtonpost.com##.pb-sm.pt-sm.b
 caixinglobal.com##.pc-ad-left01
 thegatewaypundit.com,westernjournal.com,wnd.com##.persistent-footer
 apkmb.com##.personalizadas
+post-gazette.com##.pg-mobile-adhesionbanner
 post-gazette.com##.pgevoke-flexbanner-innerwrapper
 post-gazette.com##.pgevoke-superpromo-innerwrapper
 drivespark.com,filmibeat.com,gizbot.com##.photos-add
@@ -55091,7 +55100,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||hw-ads.datpiff.com/news/$image,domain=datpiff.com
 @@||image.shutterstock.com^$image,domain=icons8.com
 @@||imasdk.googleapis.com/js/core/bridge*.html$subdocument,domain=~spotify.com
-@@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=247sports.com|api.screen9.com|bbc.com|blastingnews.com|bloomberg.com|cbsnews.com|cbssports.com|chicagotribune.com|cnet.com|crhoy.com|delish.com|distro.tv|einthusan.tv|embed.comicbook.com|etonline.com|games.usatoday.com|geo.dailymotion.com|givemesport.com|goodmorningamerica.com|goodstream.uno|howstuffworks.com|iheart.com|insideedition.com|irctc.co.in|metacritic.com|missoulian.com|newsweek.com|paralympic.org|paramountplus.com|player.abacast.net|player.earthtv.com|player.performgroup.com|popculture.com|realmadrid.com|rte.ie|rumble.com|scrippsdigital.com|sonyliv.com|tdn.com|truvid.com|tubitv.com|watch.nba.com|weather.com|wellgames.com|worldsurfleague.com|wsj.com|zdnet.com|zeebiz.com
+@@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=247sports.com|api.screen9.com|bbc.com|blastingnews.com|bloomberg.com|cbsnews.com|cbssports.com|chicagotribune.com|cnet.com|crhoy.com|delish.com|distro.tv|doubtnut.com|einthusan.tv|embed.comicbook.com|etonline.com|games.usatoday.com|geo.dailymotion.com|givemesport.com|goodmorningamerica.com|goodstream.uno|howstuffworks.com|iheart.com|insideedition.com|irctc.co.in|metacritic.com|missoulian.com|newsweek.com|paralympic.org|paramountplus.com|player.abacast.net|player.earthtv.com|player.performgroup.com|popculture.com|realmadrid.com|rte.ie|rumble.com|scrippsdigital.com|sonyliv.com|tdn.com|truvid.com|tubitv.com|watch.nba.com|weather.com|wellgames.com|worldsurfleague.com|wsj.com|zdnet.com|zeebiz.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3_dai.js$domain=247sports.com|bloomberg.co.jp|bloomberg.com|cbc.ca|cbssports.com|embed.comicbook.com|sbs.com.au|worldsurfleague.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3_debug.js$domain=abcnews.go.com|brightcove.net|insideedition.com|pch.com
 @@||img-cdn.mediaplex.com^$image,domain=betfair.com
