@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202303051613
+! Version: 202303060117
 ! Title: EasyList
-! Last modified: 05 Mar 2023 16:13 UTC
+! Last modified: 06 Mar 2023 01:17 UTC
 ! Expires: 6 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -51635,6 +51635,7 @@ money.com##.ca-widget-inline
 thecable.ng##.cableads_mid
 cafonline.com##.caf-o-sponsors-nav
 challonge.com##.cake-unit
+thedalesreport.com##.cap-container
 dllme.com##.captchabox > div
 u.today##.card--something-md
 devdiscourse.com##.carousel
@@ -52865,6 +52866,7 @@ infobel.com##.results-middle-banner-container
 infobel.com##.results-top-banner-container
 latimes.com,sandiegouniontribune.com##.revcontent
 al.com,cleveland.com,lehighvalleylive.com,masslive.com,mlive.com,newyorkupstate.com,oregonlive.com,pennlive.com,silive.com,syracuse.com##.revenue-display
+grammar.yourdictionary.com##.revenue-placeholder
 hindustantimes.com##.rgtAdSection
 indianexpress.com##.rhs-banner-carousel
 siteslike.com##.rif
@@ -53306,6 +53308,7 @@ tumblr.com##.uOyjG
 ubergizmo.com##.ubergizmo-dfp-ad
 darko.audio##.ubm_widget
 momjunction.com##.ubvideoad
+grammar.yourdictionary.com##.ui-advertisement
 businessday.ng##.uiazojl
 nullpress.net##.uinyk-link
 zpaste.net##.uk-animation-shake
@@ -56225,9 +56228,9 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 @@||xfreehd.com^$generichide
 ! *** easylist:easylist_adult/adult_allowlist_popup.txt ***
 [Adblock Plus 2.0]
-! Version: 20230305183139
+! Version: 20230306080758
 ! Title: ABPVN List
-! Last modified: 05 Mar 2023 18:31:38 UTC+7
+! Last modified: 06 Mar 2023 08:07:58 UTC+7
 ! Expires: 1 days (update frequency)
 !
 ! ABPVN List filter
@@ -56296,6 +56299,7 @@ youporn.com#?#aside:-abp-has(a.ad-remove)
 ||anivn.club^*.gif
 ||api.affmates.com/js/popup_app.min.js$script
 ||api.affmates.com/js/publisher_tool.js
+||api.baomoi.com^$script
 ||appvuive.fun/wp-content/themes/vuasanco/assets/scripts/scripts.js
 ||appvuive.fun^*.gif
 ||assets-vaegaa.wedodemos.com/ads/$media,domain=vaoroi13.online
@@ -56814,7 +56818,7 @@ bantincongnghe.net##[href*="cellphones.com.vn"]
 baodansinh.vn##.box-ads-bar
 baohaugiang.com.vn##.top-header
 baomoi.com###BaoMoi_HalfPage
-baomoi.com#?##__next>div[class^="bm_"]:-abp-has(#BaoMoi_Masthead)
+baomoi.com##.bm_LB.bm_HL
 baonga.com##.monkey-content-duoicanbiet
 baonga.com##.monkey-section-tinnoibat
 baonga.com##div.monkey-qc
