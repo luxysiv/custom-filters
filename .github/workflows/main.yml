@@ -1,9 +1,7 @@
 name: CI
 on:
   push:
-    branches: [ main ]
-    paths:
-      - "abpvn-ext.txt"
+
   schedule:
    - cron: "10 * * * *"
   workflow_dispatch:
