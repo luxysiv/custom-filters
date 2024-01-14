@@ -10,15 +10,10 @@ jobs:
     permissions: write-all
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-
-      - name: Install Python
-        uses: actions/setup-python@v4
-        with:
-          python-version: 3.11
+      - uses: actions/checkout@main
       
       - name: merge
-        run: python main.py
+        run: chmod +x ./main && ./main
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           
