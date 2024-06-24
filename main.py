@@ -1,5 +1,6 @@
 import os
-from libs import requests
+import http.client
+from urllib.parse import urlparse
 
 FILTERS = {
     'abpvn.txt': 'https://raw.githubusercontent.com/abpvn/abpvn/master/filter/abpvn.txt',
@@ -7,6 +8,20 @@ FILTERS = {
     'annoyance.txt': 'https://easylist-downloads.adblockplus.org/fanboy-annoyance.txt',
     'adguard.txt': 'https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/BaseFilter/sections/adservers.txt'
 }
+
+def download_file(url, dest):
+    parsed_url = urlparse(url)
+    conn = http.client.HTTPSConnection(parsed_url.netloc)
+    conn.request("GET", parsed_url.path)
+    response = conn.getresponse()
+
+    if response.status != 200:
+        raise Exception(f"Failed to download {url}, status code: {response.status}")
+    
+    with open(dest, 'wb') as file:
+        file.write(response.read())
+
+    conn.close()
 
 def join_files(files):
     merged_lines = set()
@@ -29,11 +44,7 @@ def join_files(files):
     
 
 for filter, url in FILTERS.items():
-    response = requests.get(url)
-    if response.status_code != 200:
-        exit(1)
-    with open(filter, 'wb') as file:
-        file.write(response.content)
+    download_file(url, filter)
 
 files = list(FILTERS.keys())
 join_files(files)
