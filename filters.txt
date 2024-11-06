@@ -1,4 +1,5 @@
 ! Title: CustomList
+
 ###-CookieConsentContainer
 ###ACCETTA_COOKIES
 ###AC_ad
@@ -29834,7 +29835,6 @@
 ##.goAdMan
 ##.goBackTop
 ##.goToTop
-##.goTop
 ##.goTopButton
 ##.go_to_top
 ##.go_top_scroll
@@ -61828,6 +61828,10 @@ masterinvestor.co.uk##.sidebar_nl
 mastersclub.jp#@#.ads.widget
 mastersintime.com##.bg-green-200
 mastersintime.pl##.bg-green-200
+mastory.jp##.l-fixed
+mastory.jp##.p-article-mail
+mastory.jp##.p-article__banners
+mastory.jp##.qualvaBtn
 masz.eu##.popupContent
 matadornetwork.com##.tracking-notice
 matec.de,myconvotherm.de##.cookie-inquiry-wrapper
@@ -71048,35 +71052,35 @@ vnews.gov.vn##[href*="bit.ly"]
 vnexpress.net###ads_large_detail
 vnexpress.net###banner_top
 vnexpress.net###box_qua_tang_vne
-vnexpress.net###footer > .width_common.coppy_right_info > .contact_info.width_common > .ads_btn.guitoasoan_btn
-vnexpress.net###footer > .width_common.coppy_right_info > .contact_info.width_common > .vlight.guitoasoan_btn
-vnexpress.net###footer > .width_common.coppy_right_info > .vne_app.app_info.width_common
-vnexpress.net###footer > .width_common.coppy_right_info > .vne_app.app_info.width_common > .app-ns.left
-vnexpress.net###footer > .width_common.coppy_right_info > .vne_app.app_info.width_common > .app-vm.right > [href^="https://play.google.com/store/apps/details"]
-vnexpress.net###footer > .width_common.coppy_right_info > .vne_app.app_info.width_common > p.left > [href^="https://play.google.com/store/apps/details"]
-vnexpress.net###footer > .width_common.coppy_right_info > .vne_app.app_info.width_common > p.right > [href^="https://play.google.com/store/apps/details"]
-vnexpress.net###newsletters > .box-newsletters.box-300.box-newsletter-vne
+vnexpress.net###footer > div.width_common.coppy_right_info > .contact_info.width_common > .ads_btn.guitoasoan_btn
+vnexpress.net###footer > div.width_common.coppy_right_info > .vne_app.app_info.width_common
+vnexpress.net###newsletters-details > .wrap
+vnexpress.net###newsletters-sidebar > .wrap > .box-newsletter-new__left
 vnexpress.net###newsletters-top > .wrap
 vnexpress.net###raovat
 vnexpress.net###rich-media-banner-ads
 vnexpress.net###sis_popup
 vnexpress.net###supper_masthead
+vnexpress.net###thongtindoanhnghiep
 vnexpress.net##.article_ads
 vnexpress.net##.article_ads_300x250
 vnexpress.net##.banner_mobile_300x250
 vnexpress.net##.bottom.icon-podcast-pin
-vnexpress.net##.box-raovat-v2.box-category
-vnexpress.net##.button-adblock
+vnexpress.net##.clearfix.box_300_targer.section
+vnexpress.net##.coppy_right_info.width_common.newsletter_sidebar
 vnexpress.net##.js_installvneapp.installvneapp--small.installvneapp
+vnexpress.net##.mb20.section_wrap_poll.inner_section
+vnexpress.net##.newsletters-mb-footer.box-newsletters.mb15.box-newsletter-new
+vnexpress.net##.newsletters-sidebar.box-newsletters.mb15.box-newsletter-new
+vnexpress.net##.owl-carousel
 vnexpress.net##.section_ads_300x250
-vnexpress.net##a[id="button-adblock"]
-vnexpress.net##a[id="podcastIcon"]
+vnexpress.net##.slogan
+vnexpress.net##.width_common.block_scoll_menu > div.width_common.coppy_right_info > .contact_info.width_common > .ads_btn.guitoasoan_btn
+vnexpress.net##.width_common.block_scoll_menu > div.width_common.coppy_right_info > .vne_app.app_info.width_common
+vnexpress.net##div.width_common.menu_grid2:nth-of-type(25)
 vnexpress.net##div.width_common.menu_grid2:nth-of-type(3)
-vnexpress.net##div.wrap-hd-adblock
-vnexpress.net##div[class="inner_section section_wrap_poll mb20"]
-vnexpress.net##div[id="box_register_mail"]
-vnexpress.net##section[class="section box_category_v2 section_ads_300x250"]
-vnexpress.net##section[id="sync_bgu_and_masthead"]
+vnexpress.net##section.box_category_v2_home.box_category_v2.box_category.section:nth-of-type(16)
+vnexpress.net##section.box_category_v2_home.box_category_v2.box_category.section:nth-of-type(24)
 vnkb.com##a[href^="https://vnkb.com/e/"]
 voas.fi#@##coockie-modal
 voas.fi#@#.modal-coockie
@@ -76304,6 +76308,7 @@ zylom.com###headerbar_privacy
 ||amazonaws.com/alive5cdn/$media
 ||amazonaws.com/campaigns-ad/
 ||amazonaws.com/cdn.aimtell.com/
+||amazonaws.com/cdn.ma-site.com/common/chatbots.js$domain=mastory.jp
 ||amazonaws.com/cdn.mobverify.com
 ||amazonaws.com/fby.js
 ||amazonaws.com/fby/
@@ -91117,6 +91122,7 @@ zylom.com###headerbar_privacy
 ||iconfinder.com/static/js/istock.js
 ||iconosquare.com/widget.php$third-party
 ||icorp.ro^$third-party
+||icpfwlrzqcm.com^
 ||icubeswire.co^
 ||icubeswire.co^$document
 ||icubeswire.co^$popup
@@ -94676,6 +94682,7 @@ zylom.com###headerbar_privacy
 ||lsgwkbk.com^
 ||lsjne.com^
 ||lstonorallantyne.com^
+||lsuwndhxt.com^
 ||lsvblpynuezkbf.com^
 ||lszydrtzsh.com^
 ||ltapsxz.xyz^
@@ -95836,6 +95843,7 @@ zylom.com###headerbar_privacy
 ||minutessongportly.com^
 ||mipfohaby.com^
 ||miptj.space^
+||miqorhogxc.com^
 ||miredindeedeisas.info^
 ||mirfakpersei.com^
 ||mirfakpersei.com^$document
@@ -98465,6 +98473,7 @@ zylom.com###headerbar_privacy
 ||oogrutse.net^
 ||ooiyyavhwq.com^
 ||oojorairs.net^
+||oojrefcsammcmt.com^
 ||ookresit.net^
 ||ookris.oferty-kredytowe.pl^
 ||ookroush.com^
@@ -101186,6 +101195,7 @@ zylom.com###headerbar_privacy
 ||profitabledisplayformat.com^
 ||profitabledisplaynetwork.com^
 ||profitableexactly.com^
+||profitablefearstandstill.com^
 ||profitablegate.com^
 ||profitablegate.com^$popup
 ||profitablegatecpm.com^
@@ -102091,6 +102101,7 @@ zylom.com###headerbar_privacy
 ||qewylqmaqbjbj.top^
 ||qf-ebeydt.top^
 ||qfamlcfqhtla.com^
+||qfavlkgf.com^
 ||qfdn3gyfbs.com^
 ||qfgtepw.com^
 ||qfiofvovgapc.com^
@@ -102101,6 +102112,7 @@ zylom.com###headerbar_privacy
 ||qgexkmi.com^
 ||qglinlrtdfc.com^
 ||qgxbluhsgad.com^
+||qhcmspgkoaixup.com^
 ||qhdtlgthqqovcw.xyz^
 ||qhwyoat.com^
 ||qiaoxz.xyz^
@@ -104924,6 +104936,7 @@ zylom.com###headerbar_privacy
 ||sexycams.com/exports/$third-party
 ||sexyepc.com^
 ||sexyepc.com^$popup
+||seymourlamboy.com^
 ||seynatcreative.com^
 ||sf-ads.io^
 ||sfdsplvyphk.com^
@@ -111035,6 +111048,7 @@ zylom.com###headerbar_privacy
 ||vuwjv7sjvg7.zedporn.com^
 ||vv.7vid.net^
 ||vv8h9vyjgnst.com^
+||vvabjoqaamezj.top^
 ||vvbox.cz^$third-party
 ||vvehvch.com^
 ||vvewkbleeebez.top^
