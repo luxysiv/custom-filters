@@ -14802,6 +14802,7 @@
 ###wpf_cookie-alert
 ###wpfront-notification-bar-spacer
 ###wpfront-scroll-top-container
+###wpgtr_stickyads_textcss_container
 ###wpk-cookie-consent
 ###wpl-likebox
 ###wpladbox1
@@ -17072,6 +17073,7 @@
 ##.ad-skyscraper2
 ##.ad-skyscraper3
 ##.ad-slider
+##.ad-slot
 ##.ad-slot--container
 ##.ad-slot--inline
 ##.ad-slot--mostpop
@@ -17112,7 +17114,6 @@
 ##.ad-slot-top-728
 ##.ad-slot-widget
 ##.ad-slot-wrapper
-##.ad-slot:not(.adsbox):not(.adsbygoogle)
 ##.ad-slotRg
 ##.ad-slotRgc
 ##.ad-slot__ad--top
@@ -19160,7 +19161,7 @@
 ##.ads_center
 ##.ads_code
 ##.ads_column
-##.ads_container
+##.ads_container:not(.text-ad)
 ##.ads_container_top
 ##.ads_content
 ##.ads_css
@@ -40833,14 +40834,14 @@
 ##[class^="s2nPlayer"]
 ##[class^="tile-picker__CitrusBannerContainer-sc-"]
 ##[data-ad-cls]
-##[data-ad-manager-id]:not([style$="left: -10000px !important; top: -1000px !important;"]):not(.adsbygoogle)
-##[data-ad-module]:not([style$="left: -10000px !important; top: -1000px !important;"]):not(.adsbygoogle)
+##[data-ad-manager-id]
+##[data-ad-module]
 ##[data-ad-name]
-##[data-ad-width]:not([style$="left: -10000px !important; top: -1000px !important;"]):not(.adsbygoogle)
-##[data-adblockkey]:not([style$="left: -10000px !important; top: -1000px !important;"]):not(html):not(.adsbygoogle)
+##[data-ad-width]
+##[data-adblockkey]
 ##[data-adbridg-ad-class]
 ##[data-adshim]
-##[data-advadstrackid]:not([style$="left: -10000px !important; top: -1000px !important;"]):not(.adsbygoogle)
+##[data-advadstrackid]
 ##[data-alert-cookie]
 ##[data-aqa="widget-conversation-starter"]
 ##[data-asg-ins]
@@ -40984,7 +40985,7 @@
 ##[id^="ad_sky"]
 ##[id^="ad_slider"]
 ##[id^="bn_bottom_fixed_"]
-##[id^="div-gpt-ad"]:not([style^="width: 1px; height: 1px; position: absolute; left: -10000px; top: -"]):not([style="pointer-events: none; height: 1px; width: 0px; opacity: 0; visibility: hidden; position: fixed; bottom: 0px;"])
+##[id^="div-gpt-ad"]
 ##[id^="section-ad-banner"]
 ##[name="bridged-flipcard-div"]
 ##[name^="google_ads_iframe"]
@@ -41834,7 +41835,7 @@
 ##div[id^="crt-"][style]
 ##div[id^="dfp-ad-"]
 ##div[id^="div-ads-"]
-##div[id^="div-gpt-"]:not([style^="width: 1px; height: 1px; position: absolute; left: -10000px; top: -"]):not([style="pointer-events: none; height: 1px; width: 0px; opacity: 0; visibility: hidden; position: fixed; bottom: 0px;"])
+##div[id^="div-gpt-"]
 ##div[id^="ezoic-pub-ad-"]
 ##div[id^="google_dfp_"]
 ##div[id^="gpt_ad_"]
@@ -43604,7 +43605,6 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 /gigya-socialize-for-wordpress/*$~script,~stylesheet
 /globals_ps_afc.js$script
 /gm-button-social.min.js
-/google-adsense.js$script
 /google_adsense-$script
 /gospel2Truth.js$third-party
 /gp-cookie-consent/v1/script.js
@@ -43631,7 +43631,7 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 /ht_cookielaw.js
 /hustle/assets/hustle-ui/js/hustle-ui.min.js
 /hw-cookie-consent/latest/embed.js
-/i.imgur.com/*.gif$domain=keonhacai55.chat|www.phimdinhcao.me|www.phimdinhcao.online|xoilacxj.cc|90phutzv.cc|vebozy.cc|cakhiai.cc|listnhacai88.com|xoilaczz63.live|xemtivingon.org|www.phimdinhcao.me|mitomvh.cc|eastloshigh.com|plcdn.xyz|phimmoi.ing|motphimww.info
+/i.imgur.com/*.gif$domain=keonhacai55.chat|www.phimdinhcao.me|www.phimdinhcao.online|xoilacxj.cc|90phutzv.cc|vebozy.cc|cakhiai.cc|listnhacai88.com|xoilaczz63.live|xemtivingon.org|mitomvh.cc|eastloshigh.com|plcdn.xyz|phimmoi.ing|motphimww.info
 /i/npage/*$script,third-party
 /i_CookieConsent.js
 /ibeugdpr.js
@@ -53671,7 +53671,7 @@ eitb.eus##.flex.space-x-4.justify-left.w-full.mt-5
 eitb.eus##.publicidad_cabecera
 eitb.eus##.publicidad_robapaginas
 ekathimerini.com###nx-stick-help
-ekitan.com,kissanadu.com#@#.sidebar-ad
+ekitan.com,kissanadu.com#@#.sidebar-ad:not(.adsbygoogle)
 ekoplaza.nl###cookie-prompt-modal___BV_modal_outer_
 el-klinikken.dk###c-l-widget
 elakolije.rs###kolacic
@@ -55326,7 +55326,6 @@ fueib.org##.fue-modal-backdrop
 fuelrewards.com,limportant.fr,portaleargo.it,stackguides.com###spopupCont
 fujifilmshop.com###consident
 fujitsu.com##.social-content
-fullcliphot.com##.banner-ads
 fullcliphot.com##div#recent-content:nth-of-type(1)
 fullcliphot.com,fulllivehot.live##.popup
 fullcontact.com##.bottomRight__WEJOY
@@ -57105,6 +57104,7 @@ hsctvn.com##.hsdn>li:has(.adsbygoogle)
 hsctvn.com##.module_plugins
 hsnstore.com###cookiebar-outer
 hsnstore.de###cookiebar-outer
+hsreplay.net##[style^="min-height: 90px;"]
 hth-kitchen.com##.notificationbar
 html-online.com##.szekcio4
 httpstatus.io##.snackbar
@@ -58285,7 +58285,7 @@ jns.org##._hide_if_premium_user
 jns.org##.header-banner
 jns.org##.registration-popup
 job.inshokuten.com#@#.ad-title
-job.inshokuten.com,kurukura.jp#@#.ad-area
+job.inshokuten.com,kurukura.jp,netmile.co.jp#@#.ad-area:not(.text-ad)
 job.inshokuten.com,sexgr.net,webbtelescope.org,websaver.ca#@#.ad-box:not(#ad-banner):not(:empty)
 job.mts.ru##.cookies-agreement-alert
 jobbsafari.se##.hBzXzJ
@@ -61119,6 +61119,7 @@ mybanktracker.com###article-content > .lazyloaded
 mybib.com###footer > div
 mybroadband.co.za##.box-sponsored
 mybroadband.co.za##.feed-newsletter
+mycan.ceramicartsnetwork.org###nuCookieConsentAlert
 mycards.hdfcbank.com##.r-1p0dtai
 mycause.com.au,newsrimini.it##.newsletter_container
 mychicagosteak.com##.form-version-cid-1
@@ -68896,6 +68897,7 @@ unsplash.com##div[data-ad="true"]
 unstop.com##.box_right_bottom
 unsw.edu.au##.uds-social-follow
 untappd.com##.tos-banner
+untapped.gg##[style*="min-height: 90px; box-sizing: content-box;"]
 unz.com##.button-holder
 uol.com.br##.blogger-social
 uol.com.br##.jupiter-news-notice
@@ -68988,6 +68990,8 @@ userbenchmark.com##.nb-parent
 userscript.zone##.searcad
 userscript.zone##.w300
 userstyles.org##.NotificationLine
+userstyles.org##.style-image_shareStyleButtonWrapper__PwC0C
+userstyles.org##[class^="styles-grid_gridItems_"] > .hideInMobile:has(> [class^="GoogleAd_"])
 uservoice.com#@##uservoice-feedback
 uservoice.com#@##uservoice-feedback-tab
 usg.edu###gdpr-cookie-notification
@@ -70326,15 +70330,18 @@ www.o-study.net###IMAGE635>.ladi-transition.ladi-image
 www.o-study.net###IMAGE639>.ladi-transition.ladi-image
 www.o-study.net###POPUP648
 www.phim.world##.block.translate-x-\[-50\%\].left-2\/4.z-\[1\].bottom-\[-6px\].fixed.mx-auto.md\:container.md\:px-0.px-4.w-screen
-www.phimdinhcao.me,www.phimdinhcao.me###mobile_content_top
-www.phimdinhcao.me,www.phimdinhcao.me###p-GMH
+www.phimdinhcao.me###mobile_content_top
+www.phimdinhcao.me###p-GMH
 www.phimdinhcao.me,www.phimdinhcao.online##.banner-container
 www.phimdinhcao.me,www.phimdinhcao.online##.banner-preload
 www.phimdinhcao.me,www.phimdinhcao.online##.catfish-top
-www.phimdinhcao.online,www.phimdinhcao.me,www.phimdinhcao.me##.BanerTop100
-www.phimdinhcao.online,www.phimdinhcao.me,www.phimdinhcao.me##.adv-300-right
+www.phimdinhcao.online,www.phimdinhcao.me##.BanerTop100
+www.phimdinhcao.online,www.phimdinhcao.me##.adv-300-right
 www.psu.edu##.article-top-social-share_content__OYcDe
 www.psu.edu##.email-newsletter_outer__7vgF9
+www.saostar.vn###mobi-sapo
+www.saostar.vn###mobi-top
+www.saostar.vn###page-skin-top-holder
 www.saostar.vn##.align-items-center.justify-content-between.d-flex.text-center.bg-grey-6.w-100
 www.saostar.vn##.d-flex.justify-content-between>div>div.d-flex.justify-content-around.mt-4
 www.saostar.vn##.pc-top
@@ -71033,11 +71040,13 @@ zylom.com###headerbar_privacy
 ||05751c.site^$document,popup
 ||05fa754f24.com^
 ||0676el9lskux.top^
+||06969451.xyz^
 ||06a21eff24.com^
 ||06cffaae87.com^
 ||070880.com^
 ||072551.xyz^
 ||072551.xyz^$document,popup
+||07327127.xyz^
 ||07421283.xyz^
 ||07421283.xyz^$document,popup
 ||0760571ca9.com^
@@ -71114,6 +71123,7 @@ zylom.com###headerbar_privacy
 ||10nvejhblhha.com^
 ||10q6e9ne5.de^
 ||10sn95to9.de^
+||11006451.xyz^
 ||1100ad.com^$third-party
 ||11152646.xyz^
 ||11152646.xyz^$document,popup
@@ -71310,6 +71320,7 @@ zylom.com###headerbar_privacy
 ||1betandgonow.com^$popup
 ||1bf00b950c.com^
 ||1bm3n8sld.de^
+||1c0c3fde9d.com^
 ||1c447fc5b7.com^
 ||1c52e1e2.live^
 ||1c52e1e2.live^$document,popup
@@ -71807,6 +71818,7 @@ zylom.com###headerbar_privacy
 ||35.232.188.118^
 ||35.232.188.118^$popup
 ||350c2478fb.com^
+||35452888.xyz^
 ||3575e2d4e6.com^
 ||357dbd24e2.com^
 ||35volitantplimsoles5.com^
@@ -72437,6 +72449,7 @@ zylom.com###headerbar_privacy
 ||9354ee72.xyz^$document,popup
 ||937e30a10b.com^
 ||938az.xyz^
+||9421d59b1d.com^
 ||943d6e0643.com^
 ||94597672.xyz^
 ||94597672.xyz^$document,popup
@@ -74500,6 +74513,7 @@ zylom.com###headerbar_privacy
 ||aiftakrenge.com^
 ||aigaithojo.com^
 ||aigaithojo.com^$popup
+||aigeersaibouk.net^
 ||aigeno.com^$popup
 ||aigheebsu.net^
 ||aigneloa.com^
@@ -77075,6 +77089,7 @@ zylom.com###headerbar_privacy
 ||best-video-app.com^
 ||best-vpn-app.com^
 ||best-vpn-app.com^$popup
+||best0ne.com^
 ||best2017games.com^$popup
 ||best4fuck.com^$popup
 ||bestadbid.com^
@@ -77929,6 +77944,7 @@ zylom.com###headerbar_privacy
 ||boringoccasion.pro^
 ||bornebeautify.com^
 ||borneobulletin.com.bn/wp-content/banners/
+||bornmandemicria.co.in^
 ||bororango.com^
 ||borotango.com^
 ||boroup.com^
@@ -80261,6 +80277,7 @@ zylom.com###headerbar_privacy
 ||cokepompositycrest.com^
 ||cokepompositycrest.com^$popup
 ||cokerymyocele.shop^
+||coladinlized.com^
 ||colanbalkily.com^
 ||colanderdecrepitplaster.com^
 ||colarak.com^
@@ -83196,6 +83213,7 @@ zylom.com###headerbar_privacy
 ||digitaloceanspaces.com/woohoo/
 ||digitalpush.org^$third-party
 ||digitalthrottle.com^$third-party
+||digitklosh.top^
 ||diglloyd.com/js2/pub-wide2-ck.js
 ||dignityhourmulticultural.com^
 ||dignityprop.com^
@@ -85399,6 +85417,7 @@ zylom.com###headerbar_privacy
 ||exactdrive.com^$third-party
 ||exactorpilers.shop^
 ||exactsag.com^
+||exaggerating.makeup^
 ||exaltationinsufficientintentional.com^
 ||exaltationinsufficientintentional.com^$popup
 ||exaltbelow.com^
@@ -88629,6 +88648,7 @@ zylom.com###headerbar_privacy
 ||grownupsufferinginward.com^
 ||growthbuddy.app^
 ||grphfzutw.xyz^
+||grpvyrybbqhob.com^
 ||grscty.com/images/banner/
 ||grsm.io^
 ||grt02.com^
@@ -95307,6 +95327,7 @@ zylom.com###headerbar_privacy
 ||moomenog.com^
 ||moonads.net^
 ||mooncklick.com^
+||mooneyejollier.top^
 ||moonicorn.network^
 ||moonjscdn.info/player8/JWui.js
 ||moonjscdn.info^
@@ -95734,7 +95755,7 @@ zylom.com###headerbar_privacy
 ||mypopadpro.com^$popup
 ||mypopads.com^
 ||myprecisionads.com^$third-party
-||myreadingmanga.info/vjs/mrm_back.php
+||myreadingmanga.info/vjs/mrm_
 ||myreqdcompany.com^$all
 ||myreqdcompany.com^$popup
 ||myricasicon.top^
@@ -97120,6 +97141,7 @@ zylom.com###headerbar_privacy
 ||oefanyorgagetn.info^$popup
 ||oehgk.com^
 ||oelwojattkd.xyz^
+||oempafnyfiexpe.com^
 ||oestpq.com^
 ||oeubqjx.com^
 ||oevll.com^
@@ -97354,6 +97376,7 @@ zylom.com###headerbar_privacy
 ||olomonautcatho.info^
 ||olopruy.com^
 ||olopruy.com^$document
+||olpoxumbkput.com^
 ||olq18dx1t.com^
 ||olularhenewrev.info^
 ||olvwnmnp.com^
@@ -97413,6 +97436,7 @@ zylom.com###headerbar_privacy
 ||omjqukadtolg.com^
 ||omklefkior.com^$popup
 ||omkxadadsh.com^
+||ommjkomvweg.com^
 ||omnatuor.com^
 ||omni-ads.com^
 ||omnidokingon.com^
@@ -97545,6 +97569,7 @@ zylom.com###headerbar_privacy
 ||onkafxtiqcu.com^
 ||onkavst.com^
 ||onkodjwuq.com^
+||online-1.co.in^
 ||online-adnetwork.com^
 ||online-deal.click^$popup
 ||online.*/promoredirect?key=
@@ -101552,7 +101577,7 @@ zylom.com###headerbar_privacy
 ||quokkacheeks.com^
 ||quora.com/ads/
 ||quoracdn.net^$image,domain=vlxx.so|heoxinh.net|sieudamsex.net|phevkl.to|viet69.ong|phim18vip.vip|chichnhausex.net|pheclip.mobi|vnsexmup.net|sexhihiz.tv
-||quoracdn.net^$image,domain=www.phimdinhcao.me|www.phimdinhcao.me
+||quoracdn.net^$image,domain=www.phimdinhcao.me
 ||quotationcovetoustractor.com^
 ||quotationfirearmrevision.com^
 ||quotationindolent.com^
@@ -102793,6 +102818,7 @@ zylom.com###headerbar_privacy
 ||rmaticalacycurated.info^
 ||rmhfrtnd.com^
 ||rmhfrtnd.com^$popup
+||rmishe.com^
 ||rmndme.com^
 ||rmshqa.com^
 ||rmtckjzct.com^
@@ -104018,6 +104044,7 @@ zylom.com###headerbar_privacy
 ||senpai-stream.net/storage/banners/discord.webp
 ||sensationnominatereflect.com^
 ||sensationtwigpresumptuous.com^
+||senscirrascul.co.in^
 ||sensible-ads.com^$third-party
 ||sensifyfugged.com^
 ||sensitivenessvalleyparasol.com^
@@ -108371,6 +108398,7 @@ zylom.com###headerbar_privacy
 ||trimpagkygg.com^
 ||trimpur.com^
 ||trimregular.com^
+||trip.com/partners/ad/
 ||tripledeliveryinstance.com^
 ||triplelift.com^$third-party
 ||triplescrubjenny.com^
@@ -108732,6 +108760,7 @@ zylom.com###headerbar_privacy
 ||twaitevirgal.com^
 ||twazzyoidwlfe.com^
 ||tweakarrangement.com^
+||tweelessatic.co.in^
 ||tweetup.com^$third-party
 ||twelfthcomprehendgrape.com^
 ||twelfthdistasteful.com^
@@ -109019,6 +109048,7 @@ zylom.com###headerbar_privacy
 ||umbrellaepisode.com^
 ||umdgene.com^
 ||umebella.com^
+||umedadelemp.com^
 ||umekana.ru^
 ||umentrandings.xyz^
 ||umescomymanda.info^
@@ -109600,6 +109630,7 @@ zylom.com###headerbar_privacy
 ||vaigowoa.com^
 ||vaikijie.net^
 ||vaikuttajamedia.fi^*/markuk_evastevaroitus.js
+||vaimucuvikuwu.net^
 ||vainfulkmole.com^
 ||vainjav11.fun^
 ||vaipsona.com^
@@ -110130,6 +110161,7 @@ zylom.com###headerbar_privacy
 ||vipads.live^
 ||vipcpms.com^
 ||vipcpms.com^$popup
+||vipdragonapp.monster^
 ||vipergirls.to/clientscript/popcode_
 ||vipergirls.to/clientscript/poptrigger_
 ||viperishly.com^
@@ -111776,7 +111808,7 @@ zylom.com###headerbar_privacy
 ||www.google.*/adsense/search/ads.js
 ||www.imghippo.com^*.gif$image,domain=tvzinghd.co
 ||www.iosviet.com^$csp=script-src 'self' 'unsafe-inline' http: https:
-||www.phimdinhcao.me3s.m3u8$rewrite=abp-resource:blank-mp3,domain=www.phimdinhcao.me
+||www.phimdinhcao.me/3s.m3u8$rewrite=abp-resource:blank-mp3,domain=www.phimdinhcao.me
 ||www.thuocbietduoc.com.vn/adv/
 ||www.thuocbietduoc.com.vn/aqc/$image
 ||www.xz8.ru^
